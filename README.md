@@ -277,28 +277,36 @@ Extensions might also add items to the Status Bar at the bottom of the window. T
 
 *In this video, learn how to open and execute commands in the terminal included with VS Code. Using the integrated terminal rather than an external terminal helps keep a developer's focus on their code. It is also often helpful to be able to see the code while issuing specific terminal commands.
 
-7. File and Folder Management:
-   - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+7. File and Folder Management: - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
 
-   8. Settings and Preferences:
-   - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
+*Avoid saving unnecessary documents.
+*Follow a consistent method for naming your files and folders.
+*Store related documents together, whatever their type.
+*Separate ongoing work from completed work.
+*Avoid overfilling folders.
+*Organize documents by date.
+*Make digital copies of paper documents.
 
-   *Use the Settings editor to review and change VS Code settings. To open the Settings editor, navigate to File > Preferences > Settings. Alternately, open the Settings editor from the Command Palette (⇧⌘P (Windows, Linux Ctrl+Shift+P)) with Preferences: Open Settings or use the keyboard shortcut (⌘, (Windows, Linux Ctrl+,)).
+8. Settings and Preferences:
+- Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
 
-   9. Debugging in VS Code:
+*Use the Settings editor to review and change VS Code settings. To open the Settings editor, navigate to File > Preferences > Settings. Alternately, open the Settings editor from the Command Palette (⇧⌘P (Windows, Linux Ctrl+Shift+P)) with Preferences: Open Settings or use the keyboard shortcut (⌘, (Windows, Linux Ctrl+,)).
+*VS Code provides different scopes for settings:
+User settings - Settings that apply globally to any instance of VS Code you open.
+Workspace settings - Settings stored inside your workspace and only apply when the workspace is opened.
 
-   - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
-   -The Run and Debug view displays all information related to running and debugging and has a top bar with debugging commands and configuration settings.
-   -Run menu :The top-level Run menu has the most common run and debug commands:
-   -Launch configurations: To run or debug a simple app in VS Code, select Run and Debug on the Debug start view or press F5 and VS Code will try to run your currently active file.
-   
 
+9. Debugging in VS Code:
+- Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
+
+-The Run and Debug view displays all information related to running and debugging and has a top bar with debugging commands and configuration settings.
+-Run menu :The top-level Run menu has the most common run and debug commands:
+-Launch configurations: To run or debug a simple app in VS Code, select Run and Debug on the Debug start view or press F5 and VS Code will try to run your currently active file. 
 If running and debugging is not yet configured (no launch.json has been created), VS Code shows the Run start view.
-
 -Run and Debug view
 To bring up the Run and Debug view, select the Run and Debug icon in the Activity Bar on the side of VS Code. You can also use the keyboard shortcut Ctrl+Shift+D.
+   
+10. Using Source Control:
+How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
 
-
-
-   10. Using Source Control:
-    - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+-Pick an existing or new folder on your computer and open it in VS Code. In the Source Control view, select the Initialize Repository button. This creates a new Git repository in the current folder, allowing you to start tracking code changes. This action is equivalent to running git init on the command-line.
